@@ -1,0 +1,21 @@
+name: PeaceTreaties
+description: A plugin that allows players in pvp to make peace terms instead of killing on the spot!
+version: 1.0
+author: NathanApes
+
+main: nathan.apes.pectr.main.Main
+
+commands: 
+  
+  pec: 
+    description: Command that submits the treaty to the attacker.
+    usage: /pec <attacker>
+    
+  accept: 
+    description: Commmand that accepts the terms of the peace treaty.
+    usage: /accept
+    
+  refuse: 
+    description: Command that refuses the terms of the peace treaty.
+    usage: /refuse
+    
